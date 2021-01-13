@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1 style="text-align: center;">Game Tebak Angka</h1>
+        <p style="text-align: center;">Silakan menebak angka 1-100 sampai benar.</p>
+        <form style="text-align: center;">
+            <label for="areaNebak">Masukkan angka: </label>
+            <input type="text" id="areaNebak" class="areaNebak">
+            <input type="submit" value="Tebak" onclick="koreksi()" class="kirimTebakan">
+        </form>
+        <p class="keterangan" style="margin-left:auto; margin-right:auto; text-align: center; width: 30%; height: 20px;" ></p>
+        <script>
+            var angkaBenar=Math.floor(Math.random() *101)
+            var min=1;
+            var max=100;
+            var hitung;
+
+            var keterangan=document.querySelector('.keterangan')
+
+            var kirimTebakan = document.querySelector('.kirimTebakan');
+            var areaNebak = document.querySelector('.areaNebak');
+            
+            function koreksi(guess){
+                
+                var guess = Number(areaNebak.value);
+                if ( typeof guess != Number && guess<min || guess>max){
+                    keterangan.textContent='Masukkan angka dari '+min+' - '+max + '!';
+                } else if (guess<angkaBenar) {
+                    min=guess;
+                    keterangan.textContent='Angka terlalu kecil!';
+                    keterangan.style.backgroundColor = 'red';
+                    hitung++;
+                } else if (guess>angkaBenar) {
+                    max=guess;
+                    keterangan.textContent='Angka terlalu besar!';
+                    keterangan.style.backgroundColor = 'red';
+                    hitung++;
+                    console.log(hitung);
+                } else if (guess==angkaBenar) {
+                    keterangan.textContent = 'Selamat anda akhirnya benar setelah '+ hitung + ' kali percobaan!';
+                    keterangan.style.backgroundColor = 'green'; 
+                }
+            }
+
+            kirimTebakan.addEventListener('click', koreksi());
+        </script>
+    </body>
+</html>

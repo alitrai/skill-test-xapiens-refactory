@@ -1,0 +1,45 @@
+Javascript merupakan salah satu bahasa pemrograman yang populer dalam bidang pengembangan web. Javascript membuat aplikasi
+web menjadi interaktif tanpa reload halaman. Hampir semua browser modern dapat menjalankan javascript agar wbsite yang di-
+tampilkan lebih menarik. Dalam javascript, penting untuk menulis tanda semikolon di akhir variabel dan fungsi serta sebagai
+pembatas antara kondisi untuk mencegah error.
+
+Tipe data yang terdapat di javascript yaitu undefined, null, string, number, dan boolean. Undefined yaitu data yang belum
+memiliki nilai, null yaitu data dengan nilai null atau tidak ada, string yaitu kumpulan karakter untuk memudahkan komputer
+berkomunikasi dengan manusia dimana dalam javascript harus ditulis di dalam tanda kutip, number merupakan data dengan nilai
+berupa angka yang membantu dalam proses perhitungan/matematika, dan boolean yaitu data dengan dua jenis nilai yaitu True
+dan False yang berguna dalam operasi logika dari program. 
+
+Perhitungan matematika dapat dilakukan karena dalam javascript terdapat beberapa operator seperti '+' untuk penjumlahan,
+'-' untuk pengurangan, '*' untuk perkalian, '/' untuk pembagian dan '%' untuk mengetahui sisa pembagian. Selain untuk per-
+hitungan, ada juga operator-operator yang digunakan untuk membandingkan dua buah nilai seperti '<' untuk lebih kecil dari,
+'>' untuk lebih besar dari, '==' untuk sama dengan, '!=' untuk tidak sama dengan '<=' untuk lebih kecil dari atau sama 
+dengan, '>=' untuk lebih besar dari atau sama dengan, '===' untuk sama dengan (sekaligus membandingkan tipe data), serta
+'!==' untuk tidak sama dengan (sekaligus membandingkan tipe data).
+
+Di dalam javascript, terdapat variabel yang merupakan suatu blok data atau wadah untuk menampung sekumpulan data dengan
+berbagai tipe data. Variabel dapat dibuat dengan cara dideklarasikan terlebih dahulu menggunakan var, let atau const. Per-
+bedaannya ialah var memiliki jangkauan global, dapat dideklarasi kembali dan diperbaharui, let jangkauannya blok. dapat di-
+perbaharui tapi tidak dapat dideklarasi kembali sedangkan const juga memiliki jangkauan blok tapi tidak dapat diperbaharui
+maupun dideklarasi kembali. Variabel kemudian dapat diberikan nilai dengan menggunakan operator '='.
+
+Operasi logika dalam javascript dapat dilakukan menggunakan if, else, dan else if. Setelah menulis if, dapat dilanjutkan
+dengan menulis kondisi yang ingin dicapai di dalam tanda kurung lalu dilanjutkan dengan menulis pernyataan yang merupakan
+kode yang ingin dieksekusi di dalam tanda kurung kurawal. Apabila kondisi if tidak terpenuhi dan memiliki pernyataan lain,
+maka dapat menggunakan else apabila pernyataan tidak memerlukan kondisi atau menggunakan else if apabila pernyataan memer-
+lukan kondisi.
+
+Dalam javascript terdapat dua jenis perulangan yaitu while dan loop yang juga menggunakan operasi logika agar kodenya
+dapat dijalankan secara berulang selama kondisi yang diberikan terpenuhi. Perulangan while digunakan apabila jumlah 
+iterasi yang digunakan belum diketahui, sedangkan perulangan for digunakan apabila jumlah iterasi yang digunakan sudah diketahui. Format penulisan perulangan while dan for mirip dengan
+format penulisan if.
+
+Fungsi dalam javascript berperan untuk menjalankan tugas khusus yang diberikan. Fungsi dideklarasikan dengan menggunakan
+function, dilanjutkan dengan nama fungsi, parameter-parameter fungsi yang ditulis dalam tanda kurung serta pernyataan yang
+ditulis di dalam tanda kurung kurawal. Nantinya fungsi dapat dipanggil dan menjalankan tugasnya apabila sudah diberi para-
+meter-parameter yang sesuai.
+
+Dalam javascript juga terdapat array atau kumpulan data. array biasanya disimpan dalam variabel dan dapat berisi berbagai
+macam tipe data. array dibuat dengan cara mendeklarasikan variabel, menulis nama variabel, kemudian diberi operator '=',
+dan diberi kumpulan data yang ditulis di dalam kurung siku di mana masing-masing datanya dipisahkan dengan menggunakan
+tanda koma. 
+
